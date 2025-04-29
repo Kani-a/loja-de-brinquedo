@@ -645,7 +645,7 @@ var _macacobananaJpgDefault = parcelHelpers.interopDefault(_macacobananaJpg);
 const logo = (0, _macacobananaJpgDefault.default);
 const createHeader = ()=>{
     const $header = `
-            <img src="${logo}" alt="logo">
+            
             <h1>Nome da loja de Brinquedo</h1>
             `;
     const header = document.createElement('header');
@@ -731,10 +731,13 @@ const SideBar = ()=>{
     const $sidebar = `
     
     
-    <section class="sidebar pe-4 ps-5 d-none d-sm-block" id="sidebar">
+    <section class="sidebar pe-4 ps-5 d-none d-sm-block w-25" id="sidebar">
         
         <nav class="sticky-top">
+            
         <h1>menu principal</h1>
+
+            
             <ul class="navbar-nav">
                 <li class="list-group-item">
                     <a href="#home">
@@ -743,7 +746,7 @@ const SideBar = ()=>{
                 </li>
                 <li>
                     <a href="#catalogo">
-                        cat\xe1logo de brinquedos
+                        cat\xe1logo 
                     </a>
                 </li>
                 <li>
@@ -884,17 +887,21 @@ const adiministracao = ()=>{
                     <td>3,80</td>
                     <td>sim</td>
                 </tr>
-                
+                <tr >
+                    <td class="w-100">
+                        <button id="MakeNewToy" class="w-100">
+                            <a href="#toymaker"> 
+                                Novo brinquedo
+                            </a>
+                        </button>
+                    <td>
+                </tr>
             </tbody> 
             
         </table>
     </section>
     <section class="d-flex">
-        <button id="MakeNewToy">
-            <a href="#toymaker"> 
-                Novo brinquedo
-            </a>
-        </button>
+      
     </section>
    
     `;
@@ -991,7 +998,7 @@ const homePage = ()=>{
     const $homeHTML = `
     
     
-        <section class="p-2 d-flex-inline">
+        <section>
             <h2>Brinquedos em destaque</h2>
             <ul class="row p-0 m-0 text-center">
                 <li class="list-group-item col m-3">
@@ -1054,7 +1061,7 @@ const homePage = ()=>{
         </section>
     `;
     const main = (0, _main.CreateMain)();
-    main.classList = "d-flex  h-100";
+    main.classList = "d-flex  h-100hv";
     main.insertAdjacentHTML('beforeend', $homeHTML);
 };
 
@@ -1072,34 +1079,35 @@ var _main = require("../components/main");
 const NewToyForm = ()=>{
     const $toyform = `
     
-    <form class="d-grid w-100 p-5">
-        <div class="form-group d-flex justify-content-between">
-            <label class="text-start w-50 w-sm-25 " for="exampleInputEmail1">Codigo:</label>
+    <form class="d-grid w-100 p-3 p-md-5">
+
+        <div class="form-group d-flex  h-50 ">
+            <label class="text-start w-50 w-sm-25 text-center text-center" for="exampleInputEmail1">Codigo:</label>
             <input type="email" class="form-control w-100" id="exampleInputEmail1" aria-describedby="emailHelp" >
         </div>
-        <div class="form-group d-inline-flex">
-            <label class="text-start w-50 w-sm-25" for="exampleInputPassword1">descri\xe7ao</label>
+        <div class="form-group d-inline-flex h-50 " >
+            <label class="text-start w-50 w-sm-25 text-center" for="exampleInputPassword1">descri\xe7ao</label>
             <input type="text" class="form-control " id="exampleInputPassword1" >
         </div>
-         <div class="form-group d-inline-flex">
-            <label class="text-start w-50 w-sm-25" for="exampleInputEmail1">CATEGORIA:</label>
+         <div class="form-group d-inline-flex h-50">
+            <label class="text-start w-50 w-sm-25 text-center" for="exampleInputEmail1">CATEGORIA:</label>
             <input type="text" class="form-control  " id="exampleInputEmail1" aria-describedby="emailHelp" >
         </div>
-         <div class="form-group d-inline-flex">
-            <label class="text-start w-50 w-sm-25" for="exampleInputEmail1">MARCA</label>
+         <div class="form-group d-inline-flex h-50">
+            <label class="text-start w-50 w-sm-25 text-center" for="exampleInputEmail1">MARCA</label>
             <input type="text" class="form-control  " id="exampleInputEmail1" aria-describedby="emailHelp" >
         </div>
-         <div class="form-group d-inline-flex">
-            <label class="text-start w-50 w-sm-25" for="exampleInputEmail1">IMAGEM</label>
+         <div class="form-group d-inline-flex h-50">
+            <label class="text-start w-50 w-sm-25 text-center" for="exampleInputEmail1">IMAGEM</label>
             <input type="text" class="form-control  " id="exampleInputEmail1" aria-describedby="emailHelp" >
             
          </div>
-         <div class="form-group d-inline-flex">
-            <label class="text-start w-50 w-sm-25" for="exampleInputEmail1">VALOR</label>
+         <div class="form-group d-inline-flex h-50">
+            <label class="text-start w-50 w-sm-25 text-center" for="exampleInputEmail1">VALOR</label>
             <input type="text" class="form-control  " id="exampleInputEmail1" aria-describedby="emailHelp" >
         </div>
-         <div class="form-group d-inline-flex">
-            <label class="text-start w-50 w-sm-25" for="exampleInputEmail1">DETALHES</label>
+         <div class="form-group d-inline-flex h-50">
+            <label class="text-start w-50 w-sm-25 text-center" for="exampleInputEmail1">DETALHES</label>
             <input type="text" class="form-control  " id="exampleInputEmail1" aria-describedby="emailHelp" >
         </div>
 
@@ -1108,7 +1116,7 @@ const NewToyForm = ()=>{
     </form>
     `;
     const main = (0, _main.CreateMain)();
-    main.classList = "d-flex h-100";
+    main.classList = "d-flex h-100hv";
     main.insertAdjacentHTML("beforeend", $toyform);
 };
 

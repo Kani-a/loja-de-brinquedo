@@ -3,7 +3,7 @@ const logo = img
 export const createHeader =()=>{
 
     const $header = `
-            <img src="${logo}" alt="logo">
+            
             <h1>Nome da loja de Brinquedo</h1>
             `
     

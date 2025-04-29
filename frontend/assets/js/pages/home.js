@@ -12,7 +12,7 @@ export const homePage=()=>{
     const $homeHTML=`
     
     
-        <section class="p-2 d-flex-inline">
+        <section>
             <h2>Brinquedos em destaque</h2>
             <ul class="row p-0 m-0 text-center">
                 <li class="list-group-item col m-3">
@@ -75,7 +75,7 @@ export const homePage=()=>{
         </section>
     `
     const main = CreateMain();
-    main.classList = "d-flex  h-100"
+    main.classList = "d-flex  h-100hv"
     main.insertAdjacentHTML('beforeend',$homeHTML);
 
 }

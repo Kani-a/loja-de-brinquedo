@@ -26,17 +26,21 @@ export const adiministracao = ()=>{
                     <td>3,80</td>
                     <td>sim</td>
                 </tr>
-                
+                <tr >
+                    <td class="w-100">
+                        <button id="MakeNewToy" class="w-100">
+                            <a href="#toymaker"> 
+                                Novo brinquedo
+                            </a>
+                        </button>
+                    <td>
+                </tr>
             </tbody> 
             
         </table>
     </section>
     <section class="d-flex">
-        <button id="MakeNewToy">
-            <a href="#toymaker"> 
-                Novo brinquedo
-            </a>
-        </button>
+      
     </section>
    
     `

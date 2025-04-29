@@ -4,10 +4,13 @@ export const SideBar=()=>{
     const $sidebar =`
     
     
-    <section class="sidebar pe-4 ps-5 d-none d-sm-block" id="sidebar">
+    <section class="sidebar pe-4 ps-5 d-none d-sm-block w-25" id="sidebar">
         
         <nav class="sticky-top">
+            
         <h1>menu principal</h1>
+
+            
             <ul class="navbar-nav">
                 <li class="list-group-item">
                     <a href="#home">
@@ -16,7 +19,7 @@ export const SideBar=()=>{
                 </li>
                 <li>
                     <a href="#catalogo">
-                        catálogo de brinquedos
+                        catálogo 
                     </a>
                 </li>
                 <li>
