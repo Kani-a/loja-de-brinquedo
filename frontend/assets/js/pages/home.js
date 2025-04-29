@@ -14,62 +14,57 @@ export const homePage=()=>{
     
         <section>
             <h2>Brinquedos em destaque</h2>
-            <ul class="row p-0 m-0 text-center">
-                <li class="list-group-item col m-3">
+            <ul class="row row-cols-1 row-cols-sm-3 row-cols-md-4 ">
+
+                <li class="list-group-item col ">
+                    <a href="#brinquedo" >
+                        <img src="${img1}" alt="brinquedo1" >
+                        <p class="text-center">
+                        dedscriçao
+                        <p>preço</p>
+                        
+                        </p>
+                        
+                    </a>
+                </li>
+                
+                 <li class="list-group-item col">
                     <a href="#brinquedo">
                         <img src="${img1}" alt="brinquedo1" >
-                        <p" class="d-block ">dedscriçao</p>
+                        <p class="d-flex ">dedscriçao</p>
                         <p>preço</p>
                     </a>
                 </li>
-                <li class="list-group-item col m-3">
-                    <img src="${img2}" alt="brinquedo1">
-                    <p" class="d-block ">descriçao</p>
-                    <p>preço</p>
+
+                 <li class="list-group-item col">
+                    <a href="#brinquedo">
+                        <img src="${img1}" alt="brinquedo1" >
+                        <p class="d-flex ">dedscriçao</p>
+                        <p>preço</p>
+                    </a>
                 </li>
-                <li class="list-group-item col m-3">
-                    <img src="${img3}" alt="brinquedo1">
-                    <p" class="d-block ">descriçao</p>
-                    <p>preço</p>
+                 <li class="list-group-item col">
+                    <a href="#brinquedo">
+                        <img src="${img1}" alt="brinquedo1" >
+                        <p class="d-flex ">dedscriçao</p>
+                        <p>preço</p>
+                    </a>
                 </li>
-                <li class="list-group-item col m-3">
-                    <img src="${img3}" alt="brinquedo1">
-                    <p" class="d-block ">descriçao</p>
-                    <p>preço</p>
+                
+                 <li class="list-group-item col">
+                    <a href="#brinquedo">
+                        <img src="${img1}" alt="brinquedo1" >
+                        <p class="d-flex ">dedscriçao</p>
+                        <p>preço</p>
+                    </a>
                 </li>
-                <li class="list-group-item col m-3">
-                    <img src="${img3}" alt="brinquedo1">
-                    <p" class="d-block ">descriçao</p>
-                    <p>preço</p>
-                </li>
-                <li class="list-group-item col m-3">
-                    <img src="${img3}" alt="brinquedo1">
-                    <p" class="d-block ">descriçao</p>
-                    <p>preço</p>
-                </li><li class="list-group-item col m-3">
-                    <img src="${img3}" alt="brinquedo1">
-                    <p" class="d-block ">descriçao</p>
-                    <p>preço</p>
-                </li><li class="list-group-item col m-3">
-                    <img src="${img3}" alt="brinquedo1">
-                    <p" class="d-block ">descriçao</p>
-                    <p>preço</p>
-                </li><li class="list-group-item col m-3">
-                    <img src="${img3}" alt="brinquedo1">
-                    <p" class="d-block ">descriçao</p>
-                    <p>preço</p>
-                </li><li class="list-group-item col m-3">
-                    <img src="${img3}" alt="brinquedo1">
-                    <p" class="d-block ">descriçao</p>
-                    <p>preço</p>
-                </li><li class="list-group-item col m-3">
-                    <img src="${img3}" alt="brinquedo1">
-                    <p" class="d-block ">descriçao</p>
-                    <p>preço</p>
-                </li><li class="list-group-item col m-3">
-                    <img src="${img3}" alt="brinquedo1">
-                    <p" class="d-block ">descriçao</p>
-                    <p>preço</p>
+                
+                 <li class="list-group-item col">
+                    <a href="#brinquedo">
+                        <img src="${img1}" alt="brinquedo1" >
+                        <p class="d-flex ">dedscriçao</p>
+                        <p>preço</p>
+                    </a>
                 </li>
             </ul>
         </section>

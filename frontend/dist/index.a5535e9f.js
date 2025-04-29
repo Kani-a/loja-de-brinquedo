@@ -1000,62 +1000,57 @@ const homePage = ()=>{
     
         <section>
             <h2>Brinquedos em destaque</h2>
-            <ul class="row p-0 m-0 text-center">
-                <li class="list-group-item col m-3">
+            <ul class="row row-cols-1 row-cols-sm-3 row-cols-md-4 ">
+
+                <li class="list-group-item col ">
+                    <a href="#brinquedo" >
+                        <img src="${img1}" alt="brinquedo1" >
+                        <p class="text-center">
+                        dedscri\xe7ao
+                        <p>pre\xe7o</p>
+                        
+                        </p>
+                        
+                    </a>
+                </li>
+                
+                 <li class="list-group-item col">
                     <a href="#brinquedo">
                         <img src="${img1}" alt="brinquedo1" >
-                        <p" class="d-block ">dedscri\xe7ao</p>
+                        <p class="d-flex ">dedscri\xe7ao</p>
                         <p>pre\xe7o</p>
                     </a>
                 </li>
-                <li class="list-group-item col m-3">
-                    <img src="${img2}" alt="brinquedo1">
-                    <p" class="d-block ">descri\xe7ao</p>
-                    <p>pre\xe7o</p>
+
+                 <li class="list-group-item col">
+                    <a href="#brinquedo">
+                        <img src="${img1}" alt="brinquedo1" >
+                        <p class="d-flex ">dedscri\xe7ao</p>
+                        <p>pre\xe7o</p>
+                    </a>
                 </li>
-                <li class="list-group-item col m-3">
-                    <img src="${img3}" alt="brinquedo1">
-                    <p" class="d-block ">descri\xe7ao</p>
-                    <p>pre\xe7o</p>
+                 <li class="list-group-item col">
+                    <a href="#brinquedo">
+                        <img src="${img1}" alt="brinquedo1" >
+                        <p class="d-flex ">dedscri\xe7ao</p>
+                        <p>pre\xe7o</p>
+                    </a>
                 </li>
-                <li class="list-group-item col m-3">
-                    <img src="${img3}" alt="brinquedo1">
-                    <p" class="d-block ">descri\xe7ao</p>
-                    <p>pre\xe7o</p>
+                
+                 <li class="list-group-item col">
+                    <a href="#brinquedo">
+                        <img src="${img1}" alt="brinquedo1" >
+                        <p class="d-flex ">dedscri\xe7ao</p>
+                        <p>pre\xe7o</p>
+                    </a>
                 </li>
-                <li class="list-group-item col m-3">
-                    <img src="${img3}" alt="brinquedo1">
-                    <p" class="d-block ">descri\xe7ao</p>
-                    <p>pre\xe7o</p>
-                </li>
-                <li class="list-group-item col m-3">
-                    <img src="${img3}" alt="brinquedo1">
-                    <p" class="d-block ">descri\xe7ao</p>
-                    <p>pre\xe7o</p>
-                </li><li class="list-group-item col m-3">
-                    <img src="${img3}" alt="brinquedo1">
-                    <p" class="d-block ">descri\xe7ao</p>
-                    <p>pre\xe7o</p>
-                </li><li class="list-group-item col m-3">
-                    <img src="${img3}" alt="brinquedo1">
-                    <p" class="d-block ">descri\xe7ao</p>
-                    <p>pre\xe7o</p>
-                </li><li class="list-group-item col m-3">
-                    <img src="${img3}" alt="brinquedo1">
-                    <p" class="d-block ">descri\xe7ao</p>
-                    <p>pre\xe7o</p>
-                </li><li class="list-group-item col m-3">
-                    <img src="${img3}" alt="brinquedo1">
-                    <p" class="d-block ">descri\xe7ao</p>
-                    <p>pre\xe7o</p>
-                </li><li class="list-group-item col m-3">
-                    <img src="${img3}" alt="brinquedo1">
-                    <p" class="d-block ">descri\xe7ao</p>
-                    <p>pre\xe7o</p>
-                </li><li class="list-group-item col m-3">
-                    <img src="${img3}" alt="brinquedo1">
-                    <p" class="d-block ">descri\xe7ao</p>
-                    <p>pre\xe7o</p>
+                
+                 <li class="list-group-item col">
+                    <a href="#brinquedo">
+                        <img src="${img1}" alt="brinquedo1" >
+                        <p class="d-flex ">dedscri\xe7ao</p>
+                        <p>pre\xe7o</p>
+                    </a>
                 </li>
             </ul>
         </section>
