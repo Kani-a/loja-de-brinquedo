@@ -2,8 +2,8 @@ import { CreateMain } from "../components/main"
 
 export const adiministracao = ()=>{
     const $adm =`
-    <section class="d-inline w-100">
-        <table class="table table-striped my-3 ">
+    <section class="container">
+        <table class="table table-striped">
         
             <thead>
                 <tr>
@@ -27,8 +27,8 @@ export const adiministracao = ()=>{
                     <td>sim</td>
                 </tr>
                 <tr >
-                    <td class="w-100">
-                        <button id="MakeNewToy" class="w-100">
+                    <td>
+                        <button id="MakeNewToy">
                             <a href="#toymaker"> 
                                 Novo brinquedo
                             </a>
@@ -39,9 +39,7 @@ export const adiministracao = ()=>{
             
         </table>
     </section>
-    <section class="d-flex">
-      
-    </section>
+  
    
     `
     const main = CreateMain()

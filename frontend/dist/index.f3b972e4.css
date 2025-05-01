@@ -49,5 +49,6 @@ main {
 
 .sidebar {
   background-color: var(--clr-headerbg) !important;
+  width: 15rem !important;
 }
 /*# sourceMappingURL=index.f3b972e4.css.map */

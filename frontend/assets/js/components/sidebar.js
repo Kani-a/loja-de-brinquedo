@@ -4,14 +4,14 @@ export const SideBar=()=>{
     const $sidebar =`
     
     
-    <section class="sidebar pe-4 ps-5 d-none d-sm-block w-25" id="sidebar">
+    <section class="sidebar p-2 d-none d-sm-flex text-center" id="sidebar">
         
         <nav class="sticky-top">
             
-        <h1>menu principal</h1>
+        <h2>menu principal</h2>
 
             
-            <ul class="navbar-nav">
+            <ul class="navbar-nav d-flex ">
                 <li class="list-group-item">
                     <a href="#home">
                         home

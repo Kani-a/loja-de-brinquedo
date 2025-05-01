@@ -731,14 +731,14 @@ const SideBar = ()=>{
     const $sidebar = `
     
     
-    <section class="sidebar pe-4 ps-5 d-none d-sm-block w-25" id="sidebar">
+    <section class="sidebar p-2 d-none d-sm-flex text-center" id="sidebar">
         
         <nav class="sticky-top">
             
-        <h1>menu principal</h1>
+        <h2>menu principal</h2>
 
             
-            <ul class="navbar-nav">
+            <ul class="navbar-nav d-flex ">
                 <li class="list-group-item">
                     <a href="#home">
                         home
@@ -863,8 +863,8 @@ parcelHelpers.export(exports, "adiministracao", ()=>adiministracao);
 var _main = require("../components/main");
 const adiministracao = ()=>{
     const $adm = `
-    <section class="d-inline w-100">
-        <table class="table table-striped my-3 ">
+    <section class="container">
+        <table class="table table-striped">
         
             <thead>
                 <tr>
@@ -888,8 +888,8 @@ const adiministracao = ()=>{
                     <td>sim</td>
                 </tr>
                 <tr >
-                    <td class="w-100">
-                        <button id="MakeNewToy" class="w-100">
+                    <td>
+                        <button id="MakeNewToy">
                             <a href="#toymaker"> 
                                 Novo brinquedo
                             </a>
@@ -900,9 +900,7 @@ const adiministracao = ()=>{
             
         </table>
     </section>
-    <section class="d-flex">
-      
-    </section>
+  
    
     `;
     const main = (0, _main.CreateMain)();

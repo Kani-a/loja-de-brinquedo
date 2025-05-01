@@ -59,7 +59,7 @@ main{
 	background-color: var(--clr-yellow-0) !important;
 }
 .sidebar{
-    
+    width: 15rem!important;
     background-color:var(--clr-headerbg) !important;
 }
 
