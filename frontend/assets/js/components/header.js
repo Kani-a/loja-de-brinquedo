@@ -1,15 +1,13 @@
 export const createHeader = () => {
     const $header = `
-    <img src="https://placehold.co/175x100" alt="logo">
-        <div class="container d-flex justify-content-center align-items-center">
-            <div class="d-flex flex-column align-items-center">
-                <h1 class="text-center">100Esperança</h1>
-            </div>
+        <div class="container d-flex align-items-center justify-content-start py-3 px-4">
+            <img src="https://cdn-icons-png.flaticon.com/512/146/146008.png" alt="Logo brinquedo" class="me-3 header-logo">
+            <h1 class="m-0 fw-bold text-dark">100Esperança</h1>
         </div>
     `;
 
     const header = document.createElement('header');
-    header.classList = 'bg-warning';
+    header.classList = 'bg-warning shadow-sm border-bottom';
     header.insertAdjacentHTML('afterbegin', $header);
     document.body.insertAdjacentElement('afterbegin', header);
-}
+};

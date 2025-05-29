@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"6xvnb":[function(require,module,exports,__globalThis) {
+})({"hNhPk":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -642,15 +642,13 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "createHeader", ()=>createHeader);
 const createHeader = ()=>{
     const $header = `
-    <img src="https://placehold.co/175x100" alt="logo">
-        <div class="container d-flex justify-content-center align-items-center">
-            <div class="d-flex flex-column align-items-center">
-                <h1 class="text-center">100Esperan\xe7a</h1>
-            </div>
+        <div class="container d-flex align-items-center justify-content-start py-3 px-4">
+            <img src="https://cdn-icons-png.flaticon.com/512/146/146008.png" alt="Logo brinquedo" class="me-3 header-logo">
+            <h1 class="m-0 fw-bold text-dark">100Esperan\xe7a</h1>
         </div>
     `;
     const header = document.createElement('header');
-    header.classList = 'bg-warning';
+    header.classList = 'bg-warning shadow-sm border-bottom';
     header.insertAdjacentHTML('afterbegin', $header);
     document.body.insertAdjacentElement('afterbegin', header);
 };
@@ -695,42 +693,29 @@ const SideBar = ()=>{
         <section class="sidebar d-none d-sm-block bg-warning vh-100" id="sidebar" style="width: 175px; position: fixed; left: 0;"> 
             <nav>
                 <h1>Menu</h1>
-                    <div class="list-group">
-                        <a href="#home" class="nav-link list-group-item list-group-item-warning list-group-item-action"  >
-                            Home
-                        </a>
-                        <a href="#catalogo" class="nav-link list-group-item list-group-item-warning list-group-item-action"  >
-                            Cat\xe1logo de Brinquedos
-                        </a>
-                        <a href="#admin" class="nav-link list-group-item list-group-item-warning list-group-item-action"  >
-                            Administra\xe7\xe3o
-                        </a>    
-                        <a href="#about" class="nav-link list-group-item list-group-item-warning list-group-item-action"  >
-                            Sobre a Equipe
-                        </a>
-                    </div>
+                <div class="list-group">
+                    <a href="#home" class="nav-link list-group-item list-group-item-warning list-group-item-action">Home</a>
+                    <a href="#catalogo" class="nav-link list-group-item list-group-item-warning list-group-item-action">Cat\xe1logo de Brinquedos</a>
+                    <a href="#admin" class="nav-link list-group-item list-group-item-warning list-group-item-action">Administra\xe7\xe3o</a>    
+                    <a href="#about" class="nav-link list-group-item list-group-item-warning list-group-item-action">Sobre a Equipe</a>
+                </div>
             </nav>
         </section>
     `;
     const main = (0, _main.CreateMain)();
     main.insertAdjacentHTML('afterbegin', $sidebar);
-    // Aqui é o js pra fazer o select funcionar ao clicar no menu da sidebar
     if (typeof window !== 'undefined') {
         const navLinks = document.querySelectorAll('.nav-link');
         const activeClass = 'active';
         navLinks.forEach((link)=>{
             link.addEventListener('click', function() {
-                // Remove a classe 'active' de todos os links
                 document.querySelectorAll('.nav-link.active').forEach((activeLink)=>{
                     activeLink.classList.remove(activeClass);
                 });
-                // Adiciona a classe 'active' ao link clicado
                 this.classList.add(activeClass);
-                // Salva o ID do link no localStorage
                 localStorage.setItem('activeNavLinkId', this.getAttribute('href'));
             });
         });
-        // Define o link ativo na inicialização
         const savedNavLinkId = localStorage.getItem('activeNavLinkId');
         if (savedNavLinkId) {
             const activeLink = document.querySelector(`[href="${savedNavLinkId}"]`);
@@ -1123,6 +1108,6 @@ const administracao = ()=>{
     main.insertAdjacentHTML("beforeend", $adm);
 };
 
-},{"../components/main":"gfq3l","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["6xvnb","1E7ZB"], "1E7ZB", "parcelRequire94c2")
+},{"../components/main":"gfq3l","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["hNhPk","1E7ZB"], "1E7ZB", "parcelRequire94c2")
 
 //# sourceMappingURL=index.a5535e9f.js.map

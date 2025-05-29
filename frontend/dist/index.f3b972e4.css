@@ -1,45 +1,69 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
 body {
-  line-height: 1;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after, q:before, q:after {
-  content: "";
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+  background-color: #fffbea;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
+  background-color: #ffc107;
+  align-items: center;
+  padding: 1rem 2rem;
   display: flex;
+  box-shadow: 0 2px 6px #0000001a;
+}
+
+header img {
+  border-radius: 10px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+header h1 {
+  color: #333;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.sidebar {
+  border-right: 1px solid #e0a800;
+  padding: 2rem 1rem;
+  box-shadow: 2px 0 8px #0000000d;
+}
+
+.sidebar h1 {
+  color: #343a40;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.sidebar .list-group-item {
+  border-radius: 10px;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  transition: all .2s ease-in-out;
+}
+
+.sidebar .list-group-item:hover {
+  transform: translateX(5px);
+  color: #fff !important;
+  background-color: #e0a800 !important;
 }
 
 .nav-link.active {
   border: none;
+  font-weight: bold;
+  box-shadow: inset 2px 2px 5px #0000001a;
   color: #fff !important;
-  background-color: #ffc107 !important;
+  background-color: #e0a800 !important;
+}
+
+.header-logo {
+  object-fit: contain;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  box-shadow: 0 1px 4px #00000026;
 }
 /*# sourceMappingURL=index.f3b972e4.css.map */
